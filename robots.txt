@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eureka-cnc-router-wyi8.vercel.app/sitemap.xml
