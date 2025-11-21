@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eureka CNC Router — Maquinados y Servicios CNC</title>
+  <meta name="description" content="Eureka CNC Router: soluciones de corte y mecanizado CNC para prototipos, producción y signage. Portafolio, contacto y pedidos." />
+  <meta property="og:title" content="Eureka CNC Router" />
+  <meta property="og:description" content="Corte, fresado y mecanizado CNC - prototipos y producción." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b6d58" />
+  <style>
+    :root{--accent:#0b6d58;--muted:#6b7280;--bg:#f7f9f8;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:#0f1724}
+    header{background:linear-gradient(90deg,#062f24,rgba(11,109,88,0.95));color:white;padding:28px 20px}
+    .wrap{max-width:1100px;margin:0 auto}
+    .nav{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:64px;height:64px;background:white;border-radius:12px;padding:8px;display:flex;align-items:center;justify-content:center}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:10px 0 0;color:rgba(255,255,255,0.9)}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:40px 0}
+    main{padding:36px 20px}
+    section{margin:28px 0}
+    .grid{display:grid;gap:18px}
+    .services{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    .gallery{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:var(--card);padding:18px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    .project{border-radius:12px;overflow:hidden;background:linear-gradient(180deg,#eef7f4,#fff)}
+    .project .thumb{height:160px;background-size:cover;background-position:center}
+    footer{padding:24px 20px;background:#fff;border-top:1px solid #eef2f3;margin-top:28px}
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand">
+      <div class="logo">
+        <svg width="48" height="48" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#08a37f"/>
+              <stop offset="1" stop-color="#0b6d58"/>
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="12" fill="white"/>
+          <g transform="translate(8,8)">
+            <circle cx="24" cy="24" r="14" fill="url(#g)" opacity="0.18"/>
+            <path d="M24 10 L28 18 L36 20 L30 26 L31 34 L24 30 L17 34 L18 26 L12 20 L20 18 Z" fill="url(#g)"/>
+            <circle cx="24" cy="24" r="6" fill="#fff" opacity="0.95"/>
+            <path d="M24 20 L27 24 L24 28 L21 24 Z" fill="url(#g)"/>
+          </g>
+        </svg>
+      </div>
+      <div>
+        <h1>Eureka CNC Router</h1>
+        <p class="lead">Corte y mecanizado CNC — prototipos, producción y señalética</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="grid services">
+      <div class="card"><h3>Mecanizado CNC</h3><p>Fresado de precisión en madera, acrílico y aluminio.</p></div>
+      <div class="card"><h3>Corte por router</h3><p>Paneles, letras corpóreas y señalética.</p></div>
+      <div class="card"><h3>Prototipado</h3><p>Iteraciones rápidas para pruebas y desarrollo.</p></div>
+      <div class="card"><h3>Acabados</h3><p>Lijado, pintura y ensamblaje final.</p></div>
+    </div>
+  </section>
+
+  <section id="portafolio">
+    <h2>Portafolio</h2>
+    <div class="grid gallery">
+      <article class="project">
+        <div class="thumb" style="background:#e6f5ee"></div>
+        <div class="body card"><h4>Rótulo corporativo</h4></div>
+      </article>
+      <article class="project">
+        <div class="thumb" style="background:#f7efe9"></div>
+        <div class="body card"><h4>Mueble prototipo MDF</h4></div>
+      </article>
+      <article class="project">
+        <div class="thumb" style="background:#eef4fb"></div>
+        <div class="body card"><h4>Panel decorativo</h4></div>
+      </article>
+      <article class="project">
+        <div class="thumb" style="background:#f0f7f7"></div>
+        <div class="body card"><h4>Placas industriales</h4></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="card">
+      <p>Email: hola@eurekacnc.com</p>
+      <p>Tel: +57 300 123 4567</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© Eureka CNC Router — Todos los derechos reservados</div>
+</footer>
+
+</body>
+</html>
